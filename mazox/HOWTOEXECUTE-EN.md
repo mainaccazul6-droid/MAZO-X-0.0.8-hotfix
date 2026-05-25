@@ -11,7 +11,9 @@
 
 # 1. Install Python
 pkg update
+
 pkg install python
+
 DO NOT RUN PYTHON YET!
 
 # 2. Download the file
