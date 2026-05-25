@@ -62,6 +62,7 @@ Everything started when me and my friend were playing Minecraft. Then he started
 
 # 1. Install Python
 pkg update
+
 pkg install python
 
 DO NOT RUN PYTHON YET!
