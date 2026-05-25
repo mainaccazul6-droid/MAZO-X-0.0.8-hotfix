@@ -17,8 +17,8 @@
 ---
 
 ## v0.0.3-beta
-- Sistema IF (si:<condición->acción>)
-- Sistema ELSE (sino:<acción>)
+- Sistema IF inicial agregado
+- Sistema ELSE inicial agregado
 - Variables globales mejoradas
 - Mejor parser de sintaxis <>
 - Soporte de ejecución múltiple en azomazo
@@ -57,5 +57,16 @@
 - Mejor manejo de ejecución de apps almacenadas
 - Optimización de azomazo con limpieza de espacios
 - Preparación para MAZO STORE PRO (instalación desde internet)
+
+---
+
+## v0.0.8-hotfix
+- Corrección completa del sistema IF y ELSE
+- ELSE ahora depende correctamente del último IF ejecutado
+- Variable global "ultimo_if" agregada
+- Nueva sintaxis estable para IF:
+  si:<condicion|accion>
+- Corrección de conflictos con símbolos <>
+- Mejor estabilidad del parser de condiciones
 
 ---
