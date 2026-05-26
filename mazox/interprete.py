@@ -1,3 +1,4 @@
+import sys
 import time
 import random
 
@@ -269,4 +270,29 @@ def main():
             break
 
 if __name__ == "__main__":
-    main()
+
+    # Ejecutar archivo .mazoxpkg
+    if len(sys.argv) > 1:
+
+        archivo = sys.argv[1]
+
+        if archivo.endswith(".mazoxpkg"):
+
+            try:
+
+                with open(archivo, "r", encoding="utf-8") as f:
+
+                    lineas = f.readlines()
+
+                    for linea in lineas:
+
+                        ejecutar(linea)
+
+            except FileNotFoundError:
+                print("\033[31mArchivo no encontrado.\033[0m")
+
+        else:
+            print("\033[31mEl archivo debe ser .mazoxpkg\033[0m")
+
+    else:
+        main()
