@@ -70,3 +70,29 @@
 - Mejor estabilidad del parser de condiciones
 
 ---
+
+## v0.0.9-dev
+- Soporte REAL para ejecución de archivos .mazoxpkg
+- Sistema de lectura de scripts externos línea por línea
+- Soporte para:
+  python interprete.py archivo.mazoxpkg
+- Validación automática de extensión .mazoxpkg
+- Mejor compatibilidad con Termux
+- Inicio del sistema modular MAZOX
+- Preparación para comando pedir:<var=pregunta>
+- Base inicial para futuros imports y paquetes
+- Mejor estructura interna del intérprete
+- Preparación para ejecución de proyectos completos
+
+---
+
+## Próximamente
+- comando pedir:<var=pregunta>
+- sistema de funciones reales
+- bucles
+- imports
+- compilador
+- IDE de MAZOX
+- soporte para mods
+- paquetes externos
+- MAZO STORE ONLINE
