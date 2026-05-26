@@ -2,7 +2,7 @@
 
 ## v0.0.1-alpha
 - Added yanog:<text>
-- Added colors
+- Added color system
 - Variable system
 - azomazo for multiple functions
 
@@ -21,47 +21,47 @@
 - Initial ELSE system added
 - Improved global variables
 - Better <> syntax parser
-- Multi-execution support in azomazo
+- Multiple execution support in azomazo
 
 ---
 
 ## v0.0.4-beta
-- App STORE system (mazoel:<app=code>)
+- STORE app system (mazoel:<app=code>)
 - App execution (gastes:<app>)
-- App listing (dineroel)
-- Mini MAZO STORE-like internal system
+- Installed apps listing (dineroel)
+- Internal mini MAZO STORE system
 
 ---
 
 ## v0.0.5-beta
 - Extended color system (&r &v &a &z &m &c &b &n &0)
-- Support for variables inside text ($variable)
-- Improved syntax error handling
+- Variable support inside text ($variable)
+- Better syntax error handling
 - Interpreter optimization
 
 ---
 
 ## v0.0.6-release-candidate
-- MAZOX OS startup banner added
+- Initial MAZOX OS banner added
 - Base prepared for online MAZO STORE
 - Structure ready for .mazoxpkg apps
-- Preparation for future digital signature (not implemented yet)
-- Language stabilized for initial release
+- Preparation for future digital signature system (not implemented yet)
+- Language stabilized for first public release
 
 ---
 
 ## v0.0.7-release
-- Improved STORE system (object-like structure with app versioning)
+- Improved STORE system (object-like structure with app version)
 - Debug mode added (debug)
-- System info command (info)
-- Better execution handling for stored apps
-- azomazo optimization with whitespace cleanup
-- Preparation for MAZO STORE PRO (internet installation support)
+- System info command added (info)
+- Better stored app execution handling
+- azomazo optimization with automatic space cleanup
+- Preparation for MAZO STORE PRO (internet installation)
 
 ---
 
 ## v0.0.8-hotfix
-- Complete IF and ELSE system fix
+- Full IF and ELSE system fix
 - ELSE now correctly depends on the last executed IF
 - Global variable "ultimo_if" added
 - New stable IF syntax:
@@ -70,3 +70,29 @@
 - Improved condition parser stability
 
 ---
+
+## v0.0.9-dev
+- REAL support for .mazoxpkg file execution
+- External script reading system line by line
+- Support for:
+  python interprete.py file.mazoxpkg
+- Automatic .mazoxpkg extension validation
+- Better Termux compatibility
+- Beginning of MAZOX modular system
+- Preparation for pedir:<var=question> command
+- Initial base for future imports and packages
+- Improved interpreter internal structure
+- Preparation for full project execution
+
+---
+
+## Coming Soon
+- pedir:<var=question> command
+- real function system
+- loops
+- imports
+- compiler
+- MAZOX IDE
+- mod support
+- external packages
+- MAZO STORE ONLINE
