@@ -79,7 +79,7 @@
 - Validación automática de extensión .mazoxpkg
 - Mejor compatibilidad con Termux
 - Inicio del sistema modular MAZOX
-- Preparación para comando pedir:<var=pregunta>
+- Preparación para comando nedir:<yar=pregunta>
 - Base inicial para futuros imports y paquetes
 - Mejor estructura interna del intérprete
 - Preparación para ejecución de proyectos completos
