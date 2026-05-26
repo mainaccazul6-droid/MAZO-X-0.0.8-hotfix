@@ -79,7 +79,7 @@
 - Automatic .mazoxpkg extension validation
 - Better Termux compatibility
 - Beginning of MAZOX modular system
-- Preparation for pedir:<var=question> command
+- Preparation for nedir:<yar=question> command
 - Initial base for future imports and packages
 - Improved interpreter internal structure
 - Preparation for full project execution
@@ -87,7 +87,7 @@
 ---
 
 ## Coming Soon
-- pedir:<var=question> command
+- nedir:<yar=question> command
 - real function system
 - loops
 - imports
